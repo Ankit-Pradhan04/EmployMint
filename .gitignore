@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+config/
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# Local env files
+.env
+.env.*.local
+.env.local
+# Ignore backend config.env
+
+backend/config/config.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Optional: Ignore public/uploads or similar if you store user files
+public/uploads/
+uploads/
